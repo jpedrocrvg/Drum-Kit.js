@@ -1,0 +1,106 @@
+body {
+  text-align: center;
+  background-color: #0f3057; /* Dark blue */
+  
+}
+
+h1 {
+  font-size: 5rem;
+  color: #c2baba; 
+  font-family: 'Forelle-font'; 
+  text-shadow: 2px 2px 4px #000000; 
+}
+
+
+
+.drum {
+  outline: none;
+  border: 8px solid #c2baba; 
+  font-size: 3rem;
+  font-family: ; 
+  font-weight: bold;
+  color: #ffffff; 
+  text-shadow: 2px 2px 4px #000000; 
+  border-radius: 50%;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  line-height: 150px; 
+  margin: 10px;
+  background-color: #ffffff; 
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for drum buttons */
+.drum:hover {
+  background-color: #6b7a8f; /* Light cyan */
+}
+
+/* Pressed effect for drum buttons */
+.pressed {
+  transform: scale(0.95); /* Slightly shrink the button */
+  box-shadow: 0 0 10px #ffffff; /* White shadow */
+}
+
+/* Game over background */
+.game-over {
+  background-color: #ff6b6b; /* Red */
+  opacity: 0.9;
+  padding: 20px;
+  border-radius: 10px;
+  color: #ffffff; /* White */
+  font-family: "Roboto", sans-serif; /* Updated font */
+}
+
+/* Customize letter buttons */
+.drum-letter {
+  font-size: 2rem;
+  color: #ffffff; /* White */
+}
+
+.w {
+  background-image: url(./images/crash.png);
+}
+
+.a {
+  background-image: url(./images/kick.png);
+}
+
+.s {
+  background-image: url(./images/snare.png);
+}
+
+.d {
+  background-image: url(./images/tom1.png);
+}
+
+.j {
+  background-image: url(./images/tom2.png);
+}
+
+.k {
+  background-image: url(./images/tom3.png);
+}
+
+.l {
+  background-image: url(./images/tom4.png);
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  color: #ffffff; /* Branco */
+  text-align: center; /* Alinhamento central */
+  animation: changeBackground 20s linear infinite; /* Inicia a animação */
+}
+
+@keyframes changeBackground {
+  0% { background-color: #000000; }
+  75% { background-color: #1a0842; } 
+}
+
+@font-face {
+  font-family: 'Forelle-font';
+  src: url('./Forelle.ttf') format('truetype');
+  
+}

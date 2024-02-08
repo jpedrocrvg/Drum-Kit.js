@@ -1,14 +1,14 @@
 body {
   text-align: center;
-  background-color: #0f3057; /* Dark blue */
+  background-color: #000000; /* Dark blue */
   
 }
 
 h1 {
   font-size: 5rem;
-  color: #c2baba; 
+  color: #464545; 
   font-family: 'Forelle-font'; 
-  text-shadow: 2px 2px 4px #000000; 
+  
 }
 
 
@@ -17,7 +17,6 @@ h1 {
   outline: none;
   border: 8px solid #c2baba; 
   font-size: 3rem;
-  font-family: ; 
   font-weight: bold;
   color: #ffffff; 
   text-shadow: 2px 2px 4px #000000; 
@@ -32,32 +31,14 @@ h1 {
   transition: all 0.3s ease;
 }
 
-/* Hover effect for drum buttons */
-.drum:hover {
-  background-color: #6b7a8f; /* Light cyan */
-}
 
-/* Pressed effect for drum buttons */
+
 .pressed {
   transform: scale(0.95); /* Slightly shrink the button */
   box-shadow: 0 0 10px #ffffff; /* White shadow */
 }
 
-/* Game over background */
-.game-over {
-  background-color: #ff6b6b; /* Red */
-  opacity: 0.9;
-  padding: 20px;
-  border-radius: 10px;
-  color: #ffffff; /* White */
-  font-family: "Roboto", sans-serif; /* Updated font */
-}
 
-/* Customize letter buttons */
-.drum-letter {
-  font-size: 2rem;
-  color: #ffffff; /* White */
-}
 
 .w {
   background-image: url(./images/crash.png);
@@ -89,15 +70,11 @@ h1 {
 
 body {
   font-family: "Arial", sans-serif;
-  color: #ffffff; /* Branco */
-  text-align: center; /* Alinhamento central */
-  animation: changeBackground 20s linear infinite; /* Inicia a animação */
+  color: #ffffff; 
+  text-align: center; 
+  animation: changeBackground 20s linear infinite; 
 }
 
-@keyframes changeBackground {
-  0% { background-color: #000000; }
-  75% { background-color: #1a0842; } 
-}
 
 @font-face {
   font-family: 'Forelle-font';
